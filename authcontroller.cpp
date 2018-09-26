@@ -69,8 +69,7 @@ void AuthController::Authentificate(QString login, QString password)
                         )
                     )
                 );
-    //https://oauth.vk.com/authorize?client_id=6444409&..
-
+    
     loop.exec();
 
     //Должна была прийти форма авторизации
